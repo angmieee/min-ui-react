@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Icon from './icon'
 
-console.log(React);
-console.log(ReactDOM);
+ReactDOM.render(<Icon />, document.getElementById('root'))
 
